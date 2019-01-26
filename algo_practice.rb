@@ -14,5 +14,5 @@ x += 1
 end
 
 def method
-	
+	p "hi"
 end
