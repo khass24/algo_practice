@@ -13,6 +13,8 @@ x = 1
 x += 1
 end
 
+x = y
+
 def method
 	p "hi"
 end
