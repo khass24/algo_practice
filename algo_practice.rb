@@ -25,3 +25,7 @@ end
 def reverse_seq(n)
 	(1..n).to_a.reverse
 end
+
+def fake_bin(str)
+  str.split('').map{ |x| x.to_i < 5 ? 0 : 1 }.join
+end
