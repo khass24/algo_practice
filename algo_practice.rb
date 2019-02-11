@@ -1,20 +1,27 @@
-# def hello
-# 	p "Hello world"
-# end
-
-x = 1
-
-100.times do
-	if x % 2 == 0
-		p x * 2
-	else
-		p x
-	end
-x += 1
+def printer_errors(s)
+	"#{s.count('n-z')}/#{s.length}"
 end
 
-x = y
+def invert(list)
+	list.map{|n| n * -1}
+end
 
-def method
-	p "hi"
+def high_and_low(numbers)
+	numbers.split.map(&:to_i).minmax.reverse.join(" ")
+end
+
+def find_short(s)
+	s.split.map(&:size).min
+end
+
+def summation(num)
+	(1..num).reduce(:+)
+end
+
+def reverse_seq(n)
+	n.downto(1).to_a
+end
+
+def reverse_seq(n)
+	(1..n).to_a.reverse
 end
