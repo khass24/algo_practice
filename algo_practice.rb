@@ -18,7 +18,7 @@ def summation(num)
 	(1..num).reduce(:+)
 end
 
-def reverse_seq(n)
+def reverse_sequence(n)
 	n.downto(1).to_a
 end
 
