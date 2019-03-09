@@ -30,4 +30,6 @@ def fake_bin(str)
   str.split(' ').map{ |x| x.to_i < 5 ? 0 : 1 }.join
 end
 
-puts "Hello world"
+def howdy
+	puts "Hello world"
+end
