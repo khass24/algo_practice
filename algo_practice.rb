@@ -3,7 +3,6 @@ def printer_errors(s)
 end
 
 
-
 def invert(list)
 	list.map{|n| n * -1}
 end
